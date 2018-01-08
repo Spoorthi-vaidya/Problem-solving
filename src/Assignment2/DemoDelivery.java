@@ -8,6 +8,7 @@ public class DemoDelivery {
 		
 			delivery_tracking d=delivery_tracking.getInstance();
 			d.received_orders();
+			d.cancellorders();
 			d.serve_orders_and_add_to_list();
 			d.display();
 			d.operation_after_landing();
